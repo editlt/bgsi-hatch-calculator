@@ -268,6 +268,12 @@ box-shadow: 0 0 10px #ff6347;
 color: #222;
 }
 
+.world-buttons .world-btn[data-world="summer"] {
+background: linear-gradient(45deg, #f6d365, #fda085); /* fuckin summmaaaa */
+box-shadow: 0 0 10px #ff6347;
+color: #222;
+}
+
 /* Limited */
 .world-buttons .world-btn[data-world="limited"] {
 background: linear-gradient(45deg, #90ee90, #32cd32); /* Light green to bright green */
