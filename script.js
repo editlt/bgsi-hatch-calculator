@@ -141,6 +141,28 @@ const eggs = [
       { name: "D0GGY1337 (Secret)", baseOdds: 50000000, icon: "images/pets/D0GGY1337.webp" },
       { name: "Prophet (Secret)", baseOdds: 250000000, icon: "images/pets/Prophet.webp" }
     ]
+  },
+  {
+    name: "Icecream Egg",
+    image: "images/Icecream_Egg.webp",
+    world: "Summer",
+    pets: [
+      { name: "Popsicle Trio", baseOdds: 1000, icon: "images/pets/Popsicle_Trio.webp" },
+      { name: "Soarin' Surfer", baseOdds: 10000, icon: "images/pets/Soarin_Surfer.webp" },
+      { name: "Sundae Cone", baseOdds: 1250000, icon: "images/pets/Sundae_Cone.webp" },
+      { name: 'Any Sundae Champion (Secret)', baseOdds: 12500000, icon: "images/pets/Vanilla_Sundae_Champion.webp"}
+    ]
+  },
+  {
+    name: "Fruit Egg",
+    image: "images/Fruit_Egg.webp",
+    world: "Summer",
+    pets: [
+      { name: "Kiwi Dragon", baseOdds: 5000, icon: "images/pets/Kiwi_Dragon.webp" },
+      { name: "Mangorium", baseOdds: 50000, icon: "images/pets/Mangorium.webp" },
+      { name: "Pineapple Tourist", baseOdds: 666666, icon: "images/pets/Pineapple_Tourist.webp" },
+      { name: 'Dragonfruit (Secret)', baseOdds: 500000000, icon: "images/pets/Dragonfruit.webp"}
+    ]
   }
 
 ];
@@ -166,6 +188,11 @@ document.getElementById("limited-btn").addEventListener("click", () => {
   currentWorld = "Limited";
   renderEggs(); // Reload eggs for the Limited world
 });
+
+document.getElementById('summer-btn').addEventListener("click", () => {
+  currentWorld = "Summer";
+  renderEggs();
+})
 
 // Render eggs based on the current world
 function renderEggs() {

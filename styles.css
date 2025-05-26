@@ -279,9 +279,9 @@ td.pet-name span {
 
 /* Summer 2025 */
 .world-buttons .world-btn[data-world="summer"] {
-  background: linear-gradient(45deg, #f6d365, #fda085);
-  box-shadow: 0 0 10px #ff6347;
-  color: #222;
+  background: linear-gradient(45deg, #ff6b35, #f7931e);
+  box-shadow: 0 0 10px #ff6b35;
+  color: #fff;
 }
 
 /* Limited */
