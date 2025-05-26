@@ -93,7 +93,7 @@ const eggs = [
   {
     name: "Chance Egg",
     image: "images/Chance_Egg.webp",
-    world: "Limited",
+    world: "Minigame Paradise",
     pets: [
       { name: "Ring Master", baseOdds: 100000, icon: "images/pets/Ring_Master.webp" },
       { name: "Royal Guardian", baseOdds: 20000000, icon: "images/pets/Royal_Guardian.webp" }
@@ -214,7 +214,7 @@ function createEggCard(egg) {
   const eggHeader = document.createElement("div");
   eggHeader.className = "egg-header";
   eggHeader.innerHTML = `
-    <img src="${egg.image}" alt="${egg.name}" />
+    <img src="${egg.image}" alt="${egg.name}" style="width: 40px; height: 40px;" />
     <h2>${egg.name}</h2>
     <div class="mode-buttons">
       <button class="mode-btn" data-mode="base">Base</button>
