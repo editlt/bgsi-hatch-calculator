@@ -163,6 +163,19 @@ const eggs = [
       { name: "Pineapple Tourist", baseOdds: 666666, icon: "images/pets/Pineapple_Tourist.webp" },
       { name: 'Dragonfruit (Secret)', baseOdds: 500000000, icon: "images/pets/Dragonfruit.webp"}
     ]
+  },
+  {
+    name: "Fossil Egg",
+    image: "images/Fossil_Egg.webp",
+    world: "Summer",
+    pets: [
+      { name: "Fossilus", baseOdds: 5000, icon: "images/pets/Fossilus.webp" },
+      { name: "Bug Amber", baseOdds: 100000, icon: "images/pets/Bug_Amber.webp" },
+      { name: "Fossil Ghost", baseOdds: 2000000, icon: "images/pets/Fossil_Ghost.webp" },
+      { name: 'Kraken (Secret)', baseOdds: 100000000, icon: "images/pets/Kraken.webp"},
+      { name: 'Any Basilisk (Secret)', baseOdds: 250000000, icon: "images/pets/Ice_Basilisk.webp"},
+      { name: 'Any Secret', baseOdds: 71000000, icon: "images/pets/Electric_Basilisk.webp" }
+    ]
   }
 
 ];
